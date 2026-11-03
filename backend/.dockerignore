@@ -1,0 +1,10 @@
+# Local Python caches and virtual environments are not needed in the image.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local configuration and VCS metadata must not be copied into the image.
+.env
+.env.*
+.git/

@@ -1,0 +1,9 @@
+# Dependencies are installed in the Linux container.
+node_modules/
+dist/
+.pytest_cache/
+
+# Local configuration and VCS metadata must not be copied into the image.
+.env
+.env.*
+.git/
